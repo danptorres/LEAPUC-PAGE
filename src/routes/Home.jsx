@@ -75,7 +75,7 @@ const Home = () => {
           </div>
           <div className="cia24-text">
             <p>
-              Mais uma participação épica da LEA na CIA, garantindo a boa perfomance nas quadras e na cachaça.
+              Mais uma participação épica da LEA na CIA, fazendo história nas quadras e no rolê, como sempre.
               Com certeza os 4 dias mais f#das da vida do universitário não pode faltar no ano da Raposa. Ansiosos para a CIA 25?
             </p>
           </div>
