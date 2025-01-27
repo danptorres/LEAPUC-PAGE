@@ -1,0 +1,299 @@
+.Product-page {
+    margin: 0;
+    padding: 2rem;
+}
+
+.Product-page h1{
+    font-size: 60px;
+    padding-top: 80px;
+}
+
+.product-container{
+    display: flex;
+    gap: 50px;
+    padding: 30px 10px 80px;
+    margin-inline: 3rem;
+}
+
+.product-simple-container {
+    display: flex;
+    gap: 20px;
+    padding: 30px 80px 80px;
+}
+
+/* Imagem do produto */
+
+.product-container .slider-swiper {
+    width: 1050px;
+}
+
+.product-simple-container .slider-swiper{    /*Slider de produto simples*/
+    height: 600px;
+    width: 1040px;
+}
+
+.swiperslide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-container .slider-swiper img,
+.product-simple-container .slider-swiper img{
+    /* height: 80%; */
+    height: 500px;
+    border-radius: 20px;
+}
+
+/*Alterar a escala de imagens grandes*/
+.product-simple-container .slider-swiper .highlight {     
+    transform: scale(0.7);
+}
+
+/* Descrição do produto */
+.product-description h2,
+.product-simple-description h2{
+    font-size: 45px;
+    background-image: linear-gradient(to bottom, rgb(255, 33, 33), rgb(170, 26, 26));
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 10px;
+}
+
+.product-description .description,
+.product-simple-description .description{
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.product-description .price,
+.product-simple-description .price{
+    background-image: linear-gradient(to bottom, white, rgb(226, 226, 226));
+    background-clip: text;
+    font-weight: bold;
+    font-size: 35px;
+    justify-content: left;
+    margin-bottom: 0;
+}
+
+/* Nome e numero da camisa */
+.product-details {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.product-details label{
+    font-weight: bold;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom, rgb(255, 33, 33), rgb(170, 26, 26));
+    background-clip: text;
+    color: transparent;
+}
+
+.product-details #label-number{
+    padding-top: 20px;
+}
+
+.product-details input{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.product-details .input-name{
+    width: 400px;
+}
+
+.product-details .input-number{
+    width: 70px;
+}
+
+/* Verificação de atleta */
+
+.product-details .athlete-checkbox {
+    margin: 50px 0 0;
+}
+
+.product-details input[type="checkbox"] {
+    display: none;
+}
+
+.product-details .checkmark {
+    width: 14px;
+    height: 14px;
+    background-color: #f1f1f1;
+    border: 2px solid #ddd;
+    border-radius: 5px; 
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    transition: 0.1s;
+}
+
+.athlete-checkbox input[type="checkbox"]:checked + .checkmark {
+    transition: 0.1s;
+    background-color: hsla(0, 93%, 48%, 0.9);
+    border-color: #757575;
+}
+
+/* Tamanhos do produto */
+.product-size{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-simple-size{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-size h2,
+.product-simple-size h2{
+    padding: 20px 0 10px;
+    font-size: 25px;
+    background-image: linear-gradient(to bottom, rgb(255, 33, 33), rgb(170, 26, 26));
+    background-clip: text;
+    color: transparent;
+}
+
+.product-size ul,
+.product-simple-size ul{
+    gap: 12px;
+}
+
+.product-size ul li button,
+.product-simple-size button{
+    font-size: 12px;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: hsla(0, 0%, 50%, 0.2);
+    border-radius: 7px;
+}
+
+.product-size ul li button:hover,
+.product-size ul li button.active,
+.product-simple-size button:hover,
+.product-simple-size button.active{
+    background-color: hsla(0, 93%, 48%, 0.9);
+}
+
+
+/* Adicionar ao carrinho */
+.add-to-cart{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.add-to-cart #confirmed-button{
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom, rgb(233, 10, 10), rgb(54, 12, 12));
+    border-radius: 10px;
+}
+
+.add-to-cart #confirmed-button:hover {
+    transition: 0.4s;
+    opacity: 0.8;
+}
+
+
+@media (max-width: 850px) {
+    .Product-page {
+        padding: 0;
+        margin: 0;
+        width: 800px;
+    }
+
+    .Product-page h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .product-container,
+    .product-simple-container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    /* Sliders */
+    .Product-page .slider-swiper{
+        width: 700px;
+    }
+
+    /* Descrição dos produtos */
+    .Product-page h2{
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .description{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        padding: 20px 10px;
+    }
+
+    .Product-page .price{
+        font-size: 50px;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    /* Detalhes do produto */  
+
+    .product-details label{
+        font-size: 30px;
+    }
+
+    .product-details input{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .product-details .input-name{
+        width: 400px;
+    }
+    
+    .product-details .input-number{
+        width: 70px;
+    }
+
+    /* Lista de tamanhos */
+
+    .product-size h2,
+    .product-simple-size h2{
+        font-size: 35px;
+    }
+
+    .product-size ul,
+    .product-simple-size ul {
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+    }
+
+    .product-size ul li button{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .product-simple-size ul li button {
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+
+
+}

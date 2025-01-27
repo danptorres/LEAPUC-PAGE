@@ -1,0 +1,114 @@
+.OurTeams-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 150px;
+    color: whitesmoke;
+}
+
+.OurTeams-container h1 {
+    padding: 150px 0 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    background-image: linear-gradient(to bottom, white, rgb(190, 190, 190));
+    background-clip: text;
+    color: transparent;
+}
+
+.OurTeams-container h2 {
+    background-image: linear-gradient(to bottom, rgb(255, 0, 0), rgb(170, 26, 26));
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+}
+
+.OurTeams-container img {
+    height: 550px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.OurTeams-container .volley img{
+    height: 600px;
+}
+
+.OurTeams-container p {
+    padding: 30px 0 30px;
+    font-size: 20px;
+    margin-inline: 100px;
+    display: flex;
+    text-align: justify;
+}
+
+.footbal,
+.volley,
+.basketball,
+.handball,
+.e-sports,
+.individual {
+    padding: 20px 0 80px;
+    text-indent: 30px;
+}
+
+
+/* Contato dos diretores */
+.directors {
+    padding: 100px 0 0 40px;
+}
+
+.directors h2 {
+    padding: 0 0 20px;
+}
+
+.directors p {
+    font-size: 18px;
+    padding-bottom: 30px;
+    border-bottom: 0;
+}
+
+.directors-contact {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+
+/* Mobile */
+@media (max-width: 850px) {
+    .OurTeams-container {
+        padding: 0;
+        margin: 0px;
+        width: 800px;
+    }
+
+    .OurTeams-container h1 {
+        padding: 130px 50px 0;
+    }
+
+    .OurTeams-container img {
+        height: 400px;
+        border-radius: 30px;
+        margin-top: 30px;
+    }
+
+    .OurTeams-container p {
+        font-size: 30px;
+        margin-inline: 45px;
+        hyphens: auto;
+    }
+
+    .directors p {
+        margin-inline: 30px;
+    }
+
+    .directors-contact {
+        padding: 70px 0 150px 0;
+    }
+
+
+
+}

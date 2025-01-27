@@ -1,0 +1,148 @@
+.products {
+    padding: 7rem;
+}
+
+.products h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    background-image: linear-gradient(to bottom, white, rgb(190, 190, 190));
+    background-clip: text;
+    color: transparent;
+}
+
+.products h2 {
+    display: flex;
+    text-align: center;
+    font-size: 35px;
+    background-image: linear-gradient(to bottom, rgb(255, 33, 33), rgb(170, 26, 26));
+    background-clip: text;
+    color: transparent;
+}
+
+
+.products-container1,
+.products-container2,
+.products-container3 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.products-container1 a,
+.products-container2 a,
+.products-container3 a {
+    text-decoration: none;
+}
+
+
+.product1,
+.product2,
+.product3,
+.product4,
+.product5,
+.product6,
+.product7,
+.product8, 
+.product9 {
+    padding: 10px;
+    background-color: hsla(0, 0%, 50%, 0.03);
+    border-radius: 20px;
+}
+
+.product1:hover,
+.product2:hover,
+.product3:hover,
+.product4:hover,
+.product5:hover,
+.product6:hover,
+.product7:hover,
+.product8:hover,
+.product9:hover {
+    border: 1px solid rgb(107, 106, 106);
+    background-color: hsla(0, 21%, 91%, 0.03);
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    background-image: linear-gradient(to bottom, white, rgb(207, 206, 206));
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    padding: 30px 0 10px;
+}
+
+
+.products-container1 img,
+.products-container2 img,
+.products-container3 img {
+    height: 350px;
+    border-radius: 20px;
+}
+
+
+/* Mobile */
+@media (max-width: 850px) {
+    .products {
+        padding: 70px 0;
+        width: 800px;
+    }
+
+    .products h1 {
+        justify-content: center;
+        text-align: center;
+        padding-top: 70px;
+        font-size: 45px;
+    }
+
+    .products h2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 45px;
+        background-image: linear-gradient(to bottom, rgb(255, 33, 33), rgb(170, 26, 26));
+        background-clip: text;
+        color: transparent;
+    }
+
+    .products-container1,
+    .products-container2,
+    .products-container3 {
+        display: block;
+        padding-top: 10px;
+        font-size: 40px;
+    }
+
+    .product1,
+    .product2,
+    .product3,
+    .product4,
+    .product5,
+    .product6,
+    .product7,
+    .product8, 
+    .product9 {
+        padding-top: 50px;
+        margin: 60px;
+        border-radius: 80px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .price {
+        font-size: 40px;
+    }
+
+    .products-container1 img,
+    .products-container2 img,
+    .products-container3 img {
+        margin-left: 50px;
+        height: 500px;
+    }
+
+
+}

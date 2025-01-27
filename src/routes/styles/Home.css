@@ -1,0 +1,177 @@
+.home {
+    padding: 7rem;
+}
+
+.home h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to bottom, white, rgb(190, 190, 190));
+    background-clip: text;
+    color: transparent;
+}
+
+/* Estrutura as imagens */
+.zootopia-container .slider {
+    max-width: 750px;
+    margin: auto;
+}
+
+/* Slides Swiper */
+.zootopia-container .slider-swiper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zootopia-container .slider-swiper img {
+    height: 500px;
+    max-height: auto;
+    object-fit: cover;
+    border-radius: 20px; 
+}
+
+/* Estilizando os botões de navegação */
+.swiper-button-next, .swiper-button-prev {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20%;
+    width: 40px; 
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Alterando a cor ao passar o mouse */
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+
+/* Estilizando a barra de paginação */
+.swiper-pagination {
+    bottom: 10px; 
+    text-align: center;
+}
+
+/* Estilizando os bullets */
+.swiper-pagination-bullet {
+    background: #f5f6f7; 
+    opacity: 0.7;
+    width: 12px;
+    height: 12px; 
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* Efeito ao passar o mouse */
+.swiper-pagination-bullet:hover {
+    background: #005bb5; 
+    opacity: 0.7;
+}
+
+/* Estilo para o bullet ativo */
+.swiper-pagination-bullet-active {
+    background: #2e09d3;
+    opacity: 0.7;
+}
+
+
+/* Slider CIA*/
+.cia24-container .slider-swiper {
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Imagens CIA*/
+.cia24-container .slider-swiper img{
+    width: 100%;
+    height: 500px;
+    /* object-fit: cover; */
+    border-radius: 20px; 
+}
+
+/* Imagens highlights*/
+.highlight {
+    transform: scale(0.9999);
+}
+
+
+/* Slider TECO */
+.teco23-container .slider-swiper {
+    width: 700px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Imagens TECO */
+.teco23-container .slider-swiper img {
+    width: 100%;
+    height: 500px;
+    /* object-fit: cover; */
+    border-radius: 20px; 
+}
+
+
+
+/* Textos */
+.zootopia-text,
+.cia24-text,
+.teco23-text {
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+
+.home h2{
+    font-size: 65px;
+    background-image: linear-gradient(to bottom, rgb(255, 0, 0), rgb(170, 26, 26));
+    background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0 20px;
+}
+
+/* Mobile */
+@media (max-width: 850px) {
+
+    .home {
+        padding: 120px 0;
+        margin: 0px;
+        width: 800px;
+    }
+
+    .home h1 {
+        padding: 10px;
+        font-size: 45px;
+        display: flex;
+        text-align: center;
+    }
+
+    .zootopia-container,
+    .teco23-container {
+       padding: 10px;
+    }
+
+    .cia24-container .slider {
+        width: 650px;
+    }
+
+    .cia24-container {
+        padding: 20px;
+    }
+
+
+
+    
+}

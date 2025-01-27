@@ -1,0 +1,100 @@
+.register{
+    padding: 5.5rem;
+}
+
+h1 {
+    background-image: linear-gradient(to bottom, white, rgb(190, 190, 190));
+    background-clip: text;
+    color: transparent;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+} 
+
+.register-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-inline: 18rem;
+    background-color: hsla(0, 0%, 50%, 0.05);
+    border-radius: 30px;
+}
+
+.register .form-control {
+    padding-bottom: 10px;
+}
+
+.register .form-control label {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: .6rem;
+    color: #eeecec;
+}
+
+.register .form-control input {
+    color: #000000;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    border-radius: 10px;
+}
+
+.register .action-control {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Aceitar receber emails checkbox */
+.register .email-checkbox {
+    padding: 10px;
+    font-size: 18px;
+    background-image: linear-gradient(to bottom, rgb(253, 3, 3), rgb(197, 11, 11));
+    background-clip: text;
+    color: transparent;
+}
+
+.register input[type="checkbox"] {
+    display: none;
+}
+
+.register .checkmark {
+    width: 10px;
+    height: 10px;
+    background-color: #f1f1f1;
+    border: 2px solid #ddd;
+    border-radius: 5px; 
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    transition: 0.1s;
+}
+
+.email-checkbox input[type="checkbox"]:checked + .checkmark {
+    transition: 0.1s;
+    background-color: hsla(0, 93%, 48%, 0.9);
+    border-color: #757575;
+}
+
+/* Botão de confirmação */
+.register .action-control {
+    padding-top: 15px;
+}
+.register .action-control button {
+    display: flex;
+    padding: 12px;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-inline: 100px;
+    color: #f5ebeb;
+    background: linear-gradient(to bottom, rgb(255, 0, 0), rgb(71, 15, 15));
+    border: none;
+    cursor: pointer;
+    opacity: .9;
+    border-radius: 10px;
+}
+
+.register .action-control button:hover {
+    opacity: 1;
+}

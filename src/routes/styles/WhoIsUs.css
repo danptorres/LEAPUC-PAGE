@@ -1,0 +1,164 @@
+.who-is-us {
+    padding: 7rem;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.who-is-us h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    background-image: linear-gradient(to bottom, white, rgb(190, 190, 190));
+    background-clip: text;
+    color: transparent;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.who-is-us h2{
+    font-size: 45px;
+    background-image: linear-gradient(to bottom, rgb(255, 0, 0), rgb(170, 26, 26));
+    background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0 20px;
+}
+
+
+/* Formatar os textos */
+
+.first-year-text p,
+.second-year-text p,
+.third-year-text p,
+.fourth-year-text p,
+.fifth-year-text p{
+    padding-bottom: 15px;
+}
+
+/* Ano de 2018 */
+.first-year-container {
+    padding: 0 80px 30px;
+    display: flex;
+    gap: 50px;
+}
+
+.first-year-container img {
+    height: 450px;
+    border-radius: 10px;
+}
+
+
+/* Ano de 2019 */
+.second-year-container{
+    padding: 0 80px 30px;
+    display: flex;
+    gap: 50px;
+}
+
+.second-year-container img {
+    height: 450px;
+    border-radius: 10px;
+}
+
+
+/* Ano de 2022 */
+.third-year-container{
+    padding: 0 50px 30px 30px;
+    display: flex;
+    gap: 50px;
+}
+
+.third-year-container img {
+    height: 450px;
+    border-radius: 10px;
+}
+
+
+/* Ano de 2023 */
+.fourth-year-container {
+    padding: 0 50px 30px 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.fourth-year-container img {
+    height: 800px;
+    border-radius: 10px;
+}
+
+
+/* Ano de 2024 */
+
+.fifth-year-container {
+    padding: 0 50px 30px 100px;
+    display: flex;
+    gap: 50px;
+}
+
+.fifth-year-container img {
+    height: 700px;
+    border-radius: 10px;
+}
+
+
+/* Mobile */
+@media (max-width: 850px) {
+    .who-is-us {
+        padding: 130px 0;
+        margin: 0px;
+        width: 800px;
+    }
+
+    #biography-container p{
+        font-size: 25px;
+    }
+
+    .first-year-container,
+    .third-year-container,
+    .fifth-year-container {
+        padding: 5px 50px;
+        display: block;
+    }
+
+    .second-year-container,
+    .fourth-year-container {
+        padding: 10px 50px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+    /* Imagens */
+
+    .first-year-container img {
+        height: 500px;
+        margin: 0 0 50px 80px;
+    }
+
+    .second-year-container img {
+        height: 500px;
+    }     
+
+    .third-year-container img {
+        height: 450px;
+        margin-bottom: 50px;
+    }
+
+    .fourth-year-container img {
+        height: 700px;
+        width: 500px;
+        margin-left: 120px;
+    }
+
+    .fifth-year-container img {
+        height: 800px;
+        margin: 0 0 50px 70px;
+    } 
+
+
+}
