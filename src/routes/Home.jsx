@@ -55,7 +55,7 @@ const Home = () => {
           </div>
           <div className="zootopia-text">
             <p>
-            Em outubro, a LEAPUC coorganizou a sunset "Zootopia", que reuniu a galera em um ambiente ao ar livre, com muito funk e a estreia do nosso novo mé. O evento promoveu a integração e reforçou o papel da Liga em garantir o melhor da vida universitária.
+            Em outubro, a LEAPUC organizou juntamente com outras atléticas a sunset "Zootopia", que reuniu a galera em um ambiente ao ar livre, com muito funk e a estreia do nosso novo mé. O evento promoveu a integração e reforçou o papel da Liga em garantir o melhor da vida universitária.
             </p>
           </div>
         </div>
