@@ -17,7 +17,7 @@ O projeto está em desenvolvimento e algumas funcionalidades ainda estão sendo 
 - **Galeria de fotos e vídeos**: Registro visual das atividades e conquistas da Liga.  
 - **Espaço para notícias**: Publicação de atualizações, novidades e conteúdos informativos relacionados à entidade.  
 - **Formulário de contato**: Canal direto para envio de dúvidas, sugestões ou solicitações.
-- Integrar o site a um aplicativo mobile para os usuários e os responsáveis da liga fazerem o gerenciamento da plataforma. 
+- **Plataforma Mobile**: Integração do site com um aplicativo mobile para os usuários acessarem e os responsáveis da Liga poderem gerenciar a plataforma. 
 
 ## Status do Projeto  
 🚧 **Em desenvolvimento**  
