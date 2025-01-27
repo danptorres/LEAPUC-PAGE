@@ -96,7 +96,7 @@ const Home = () => {
           </div>
           <div className="teco23-text">
             <p>
-              É claro que a Raposa não ficaria de fora do TECO 23, o tradicional Torneio das Engenharias do Centro-Oeste. Nossos atletas entregaram tudo em quadra e com a caneca na mão é claro. 
+              É claro que a Raposa não ficaria de fora do TECO 23, o tradicional Torneio das Engenharias do Centro-Oeste. Fazendo história, nossos atletas entregaram tudo em quadra e com a caneca na mão é claro. 
             </p>
           </div>
         </div>
