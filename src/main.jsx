@@ -43,7 +43,7 @@ const router = createBrowserRouter([
         element: <OurTeams/>
       },
       {
-        path: "/LEAPUC-page/products",
+        path: "/LEAPUC-page/products/",
         element: <Products/>
       },
       {
