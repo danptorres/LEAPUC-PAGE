@@ -55,7 +55,7 @@ const router = createBrowserRouter([
         element: <Login/>
       },
       {
-        path: "register",
+        path: "/LEAPUC-page/register",
         element: <Register/>
       },
       {
