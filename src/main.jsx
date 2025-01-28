@@ -27,7 +27,7 @@ import {createBrowserRouter, RouterProvider, Navigate} from "react-router-dom";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/LEAPUC-page",      //Manter o nome do reposítorio do git para funcionar a page
     element: <App/>,
     children: [
       {
