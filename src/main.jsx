@@ -27,7 +27,7 @@ import {createBrowserRouter, RouterProvider, Navigate} from "react-router-dom";
 
 const router = createBrowserRouter([
   {
-    path: "/LEAPUC-page",      //Manter o nome do reposítorio do git para funcionar a page
+    path: "/LEAPUC-page",      //Manter o nome do reposítorio do git para funcionar a page, para voltar a usar o local host precisa tirar o nome do repositorio
     element: <App/>,
     children: [
       {
@@ -35,23 +35,23 @@ const router = createBrowserRouter([
         element: <Home/>
       },
       {
-        path: "who-is-us",
+        path: "/LEAPUC-page/who-is-us",
         element: <WhoIsUs/>
       },
       {
-        path: "our-teams",
+        path: "/LEAPUC-page/our-teams",
         element: <OurTeams/>
       },
       {
-        path: "products",
+        path: "/LEAPUC-page/products",
         element: <Products/>
       },
       {
-        path: "contact",
+        path: "/LEAPUC-page/contact",
         element: <Contact/>
       },
       {
-        path: "login",
+        path: "/LEAPUC-page/login",
         element: <Login/>
       },
       {
@@ -59,39 +59,39 @@ const router = createBrowserRouter([
         element: <Register/>
       },
       {
-        path: "product1",
+        path: "/LEAPUC-page/product1",
         element: <Product1/>
       },
       {
-        path: "product2",
+        path: "/LEAPUC-page/product2",
         element: <Product2/>
       },
       {
-        path: "product3",
+        path: "/LEAPUC-page/product3",
         element: <Product3/>
       },
       {
-        path: "product4",
+        path: "/LEAPUC-page/product4",
         element: <Product4/>
       },
       {
-        path: "product5",
+        path: "/LEAPUC-page/product5",
         element: <Product5/>
       },
       {
-        path: "product6",
+        path: "/LEAPUC-page/product6",
         element: <Product6/>
       },
       {
-        path: "product7",
+        path: "/LEAPUC-page/product7",
         element: <Product7/>
       },
       {
-        path: "product8",
+        path: "/LEAPUC-page/product8",
         element: <Product8/>
       },
       {
-        path: "product9",
+        path: "/LEAPUC-page/product9",
         element: <Product9/>
       },
     ],
