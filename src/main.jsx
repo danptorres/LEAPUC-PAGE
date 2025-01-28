@@ -31,7 +31,7 @@ const router = createBrowserRouter([
     element: <App/>,
     children: [
       {
-        path: "/LEAPUC-page",
+        path: "/LEAPUC-page/home",
         element: <Home/>
       },
       {
