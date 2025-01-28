@@ -51,7 +51,7 @@ const router = createBrowserRouter([
         element: <Contact/>
       },
       {
-        path: "/login",
+        path: "login",
         element: <Login/>
       },
       {
