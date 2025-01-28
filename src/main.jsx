@@ -47,11 +47,11 @@ const router = createBrowserRouter([
         element: <Products/>
       },
       {
-        path: "/LEAPUC-page/contact",
+        path: "LEAPUC-page/contact/",
         element: <Contact/>
       },
       {
-        path: "/LEAPUC-page/login",
+        path: "/login",
         element: <Login/>
       },
       {
