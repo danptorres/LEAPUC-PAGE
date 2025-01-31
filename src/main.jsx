@@ -27,15 +27,15 @@ import {createBrowserRouter, RouterProvider, Navigate} from "react-router-dom";
 
 const router = createBrowserRouter([
   {
-    path: "/LEAPUC-page",      //Manter o nome do reposítorio do git para funcionar a page, para voltar a usar o local host precisa tirar o nome do repositorio
+    path: "/",      //Manter o nome do reposítorio do git para funcionar a page, para voltar a usar o local host precisa tirar o nome do repositorio
     element: <App/>,
     children: [
       {
-        path: "/LEAPUC-page",
+        path: "/",
         element: <Home/>
       },
       {
-        path: "/LEAPUC-pages/who-is-us",
+        path: "who-is-us",
         element: <WhoIsUs/>
       },
       {
